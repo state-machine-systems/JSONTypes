@@ -1,0 +1,23 @@
+{
+  "name": "json-types-spec",
+  "version": "0.1.0",
+  "description": "JSONTypes Spec",
+  "main": "index.js",
+  "devDependencies": {
+    "spec-md": "^0.6.0"
+  },
+  "scripts": {
+    "build": "spec-md index.md > dist/spec.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/state-machine-systems/JSONTypes.git"
+  },
+  "keywords": [],
+  "author": "John Wright",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/state-machine-systems/JSONTypes/issues"
+  },
+  "homepage": "https://github.com/state-machine-systems/JSONTypes#readme"
+}
