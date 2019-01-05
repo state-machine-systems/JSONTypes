@@ -7,7 +7,7 @@
     "spec-md": "^0.6.0"
   },
   "scripts": {
-    "build": "spec-md index.md > dist/spec.html"
+    "build": "spec-md draft/index.md > dist/spec.html"
   },
   "repository": {
     "type": "git",
