@@ -1,0 +1,7 @@
+-cp src
+-cp test
+-lib hxparse:git:https://github.com/Simn/hxparse.git#f61faa2021f2abb85360f997ff72c4156c891adc
+-lib utest:1.10.1
+--macro nullSafety("jsontypes", Strict)
+-main jsontypes.AllTests
+--interp
